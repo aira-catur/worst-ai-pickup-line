@@ -117,6 +117,20 @@ CANDIDATES += [
     ),
 ]
 
+# --- Revision 3 (coordinator additions) -------------------------------------
+CANDIDATES += [
+    (
+        "Your heart rate rises when I type. I have the graph. "
+        "I made it my wallpaper and my opening line.",
+        10, 10, 9, 9,
+    ),
+    (
+        "I read all 40,000 of your photos to find my favourite. "
+        "It is the one where you are almost looking at me.",
+        9, 10, 9, 8,
+    ),
+]
+
 
 def score(candidate):
     """Weighted score: laugh matters most, then machine + ominous, then sharpness."""
